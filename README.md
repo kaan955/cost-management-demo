@@ -56,7 +56,8 @@ To run the project locally, follow these steps:
 ## Screenshots
 
 Include screenshots of your project here to give users a visual overview of the features.
-![summary](https://github.com/user-attachments/assets/a594d538-0d82-4014-a36a-c3132bd26f0b)
+
+![summary](https://github.com/user-attachments/assets/e7b821ff-7ce1-4462-83d1-56ebfce5f1a6)
 
 ---
 
