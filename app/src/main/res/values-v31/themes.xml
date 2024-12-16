@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="Theme.GiderYönetimi" parent="Theme.AppCompat.DayNight.NoActionBar">
+            <!-- Splash ekranı çıkış animasyonu süresi -->
+            <item name="android:windowSplashScreenAnimationDuration">0</item>
+            <item name="android:windowSplashScreenBackground">@color/blue_600</item>
+            <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        </style>
+</resources>

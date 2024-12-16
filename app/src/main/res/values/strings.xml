@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Bütçe Yönetimi</string>
+
+
+
+    <!-- PayTypes -->
+    <string name="income_type">Gelir</string>
+    <string name="outgoings_type">Gider</string>
+    <string name="all_type">Hepsi</string>
+
+    <!-- TableStr -->
+    <string name="table_date">Tarih</string>
+    <string name="table_title">Başlık</string>
+    <string name="table_remainingDay">Kalan Gün</string>
+    <string name="table_category">Kategori</string>
+    <string name="table_amount">Tutar</string>
+
+
+    <!-- homepagefilterDesc -->
+    <string name="homepage_filter_0">BUGÜN</string>
+    <string name="homepage_filter_1">SON 3 GÜN</string>
+    <string name="homepage_filter_2">SON 7 GÜN</string>
+    <string name="homepage_filter_3">SON 1 AY</string>
+    <string name="homepage_filter_4">SON 3 AY</string>
+    <string name="homepage_filter_5">SON 1 YIL</string>
+    <string name="income">Gelir</string>
+    <string name="outgoings">Gider</string>
+
+    <!--bottomNavigation -->
+    <string name="homepage_bottom">Ana Sayfa</string>
+    <string name="list_bottom">Liste</string>
+    <string name="settings_bottom">Ayarlar</string>
+
+    <!--homepage -->
+     <string name="no_data_transactions">Tarih Aralığında İşlem Bulunamadı.</string>
+     <string name="no_data_up_coming_transactions">İleri Tarihli İşlem Bulunamadı.</string>
+     <string name="transactions_title">İşlemler</string>
+     <string name="future_transactions_title">Gelecek</string>
+
+     <!--Addtransaction -->
+   <string name="add_transaction_title">İşlem Ekle</string>
+   <string name="update_transaction_title">İşlemi Güncelle</string>
+    <string name="title">Başlık</string>
+    <string name="delete_data">Datayı Sil</string>
+    <string name="delete_confirmation">Veri silinecektir, emin misiniz?</string>
+
+   <!--List  -->
+    <string name="list_title">Liste</string>
+    <string name="list_balance_graph_title">Denge</string>
+    <string name="list_category_graph_title">Kategori</string>
+    <string name="list_statictics_graph_title">İstatistik</string>
+    <string name="list_statictics_total_record">Toplam Kayıt:</string>
+    <string name="list_statictics_total_outgoings_count">Toplam Harcama Kaydı: </string>
+    <string name="list_statictics_total_income_count">Toplam Gelir Kaydı: </string>
+    <string name="list_statictics_highest_income">En Yüksek Gelir: </string>
+    <string name="list_statictics_highest_outgoings">En Yüksek Harcama: </string>
+    <string name="record_added">Kayıt Eklendi.</string>
+    <string name="record_delete">Kayıt Silindi.</string>
+    <string name="record_update">Kayıt Güncellendi.</string>
+
+    <!--filter  -->
+    <string name="filter_title">Filtre</string>
+    <string name="filter_button">Filtrele</string>
+    <string name="filter_category">Kategori</string>
+    <string name="filter_pay_type">Ödeme Türü</string>
+
+   <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="premium_tab">Premium</string>
+    <string name="excel_tab">Excel</string>
+    <string name="password_tab">Şifrele</string>
+    <string name="backup_tab">Yedekleme</string>
+    <string name="aboutUs_tab">Hakkımızda</string>
+    <string name="comingSoon_title">Bilgilendirme</string>
+    <string name="comingSoon_desc">Bu özellik yakında gelecek.</string>
+    <string name="dialog_confirm_text">Tamam</string>
+    <string name="dialog_confirm_send_text">Gönder</string>
+    <string name="dialog_evaluation_text">Uygulamayı Değerlendir</string>
+    <string name="dialog_contact_us_text">Bize Ulaş</string>
+    <string name="dialog_contact_us_desc">Tavsiye, Sorun, Sorularınız için aşağıdan bize ulaşabilirsiniz;</string>
+    <string name="delete_contents">Verileri Sil</string>
+    <string name="delete_contents_desc">Bu işlemi onaylarsanız, tüm veriler silinecektir. Devam etmek istiyor musunuz?</string>
+    <string name="processing_started">İşleme başlandı. Lütfen bekleyiniz..</string>
+    <string name="excel_file_created">Excel dosyası başarıyla oluşturuldu:</string>
+    <string name="excel_file_not_support">Android 13+ Şuan desteklenemiyor.</string>
+    <string name="category">Kategori</string>
+    <string name="category_name">Kategori Adı</string>
+
+
+
+    <string-array name="settings_list">
+        <item>Tercihler</item>
+        <item>Bildirimler</item>
+        <item>Bize Ulaş</item>
+        <item>Kategoriler</item>
+        <item>Excel</item>
+        <item>Değerlendir</item>
+        <item>Şifrele</item>
+        <item>Yedekleme</item>
+        <item>Hakkımızda</item>
+    </string-array>
+
+    <string-array name="init_category_list">
+        <item>Maaş</item>
+        <item>Kira</item>
+        <item>Eğitim</item>
+        <item>Yemek</item>
+        <item>Diğer</item>
+    </string-array>
+
+
+    <!-- ContactUs -->
+    <string name="contactUs">Bize Ulaş</string>
+
+    <!-- Evaluation -->
+    <string name="evaluation">Değerlendir</string>
+
+    <!-- Preferences -->
+    <string name="preferences_title">Tercihler</string>
+    <string name="preference_language">Dil Seçimi</string>
+    <string name="preference_mode">Tema</string>
+    <string name="preference_currency">Para Birimi</string>
+    <string name="preference_deleteALL">Dataları Sil</string>
+    <!-- Notifications -->
+    <string name="notifications_title">Bildirimler</string>
+    <string name="notifications_desc">"*Hatırlatıcı bildirimler kur. \n"
+                                            "*Tekrarlı bildirimler kurabilirsin \n"
+                                            "*Telefonuna belirlediğin tarihte bildirim göndereceğiz. \n"</string>
+    <string name="notifications_top_title">Bildirimler Hakkında</string>
+    <string name="no_data_notifications">Gerçekleşecek Bildirim Bulunamadı.</string>
+    <string name="notification_name">"Bildirim Adı"</string>
+    <string name="notification_name_hint">"Örn: Doğum Günü Hatırlatması"</string>
+    <string name="notification_name_error">"Bildirim adı boş bırakılamaz."</string>
+    <string name="notification_date">"Tarih (GG/AA/YYYY)"</string>
+    <string name="notification_date_hint">"Örn: 05/11/2024"</string>
+    <string name="notification_date_error">"Geçersiz tarih formatı. GG/AA/YYYY şeklinde girin."</string>
+    <string name="notification_time">"Saat (SS:DD)"</string>
+    <string name="notification_time_hint">"Örn: 14:30"</string>
+    <string name="notification_time_error">"Geçersiz saat formatı. SS:DD şeklinde girin."</string>
+    <string name="notification_count">"Tekrar Sayısı"</string>
+    <string name="notification_count_hint">"Örn: 3"</string>
+    <string name="notification_count_error">"Tekrar sayısı pozitif bir tam sayı olmalı."</string>
+    <string name="notification_confirm">"Tamam"</string>
+    <string name="notification_cancel">"İptal"</string>
+    <string name="preferences_data_delete">Verilerin Temizlendi.</string>
+
+    <!-- Categories -->
+    <string name="category_title">Kategoriler</string>
+    <string name="no_data_categories">Kategori Bulunamadı</string>
+    <string name="category_other">Diğer</string>
+    <string name="category_select">Kategori Seç</string>
+    <string name="add_new_category">Yeni Kategori Ekle</string>
+    <string name="add_new_category_warning">"Tutar Girmelisin."</string>
+</resources>

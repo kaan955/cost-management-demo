@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Budget Management</string>
+
+    <!-- PayTypes -->
+    <string name="income_type">Income</string>
+    <string name="outgoings_type">Expense</string>
+    <string name="all_type">All</string>
+
+    <!-- TableStr -->
+    <string name="table_date">Date</string>
+    <string name="table_title">Title</string>
+    <string name="table_remainingDay">Remaining Days</string>
+    <string name="table_category">Category</string>
+    <string name="table_amount">Amount</string>
+
+    <!-- homepagefilterDesc -->
+    <string name="homepage_filter_0">TODAY</string>
+    <string name="homepage_filter_1">LAST 3 DAYS</string>
+    <string name="homepage_filter_2">LAST 7 DAYS</string>
+    <string name="homepage_filter_3">LAST 1 MONTH</string>
+    <string name="homepage_filter_4">LAST 3 MONTHS</string>
+    <string name="homepage_filter_5">LAST 1 YEAR</string>
+    <string name="income">Income</string>
+    <string name="outgoings">Expense</string>
+
+    <!-- bottomNavigation -->
+    <string name="homepage_bottom">Home</string>
+    <string name="list_bottom">List</string>
+    <string name="settings_bottom">Settings</string>
+
+    <!-- homepage -->
+    <string name="no_data_transactions">No transactions found in the selected date range.</string>
+    <string name="no_data_up_coming_transactions">No upcoming transactions found.</string>
+    <string name="transactions_title">Transactions</string>
+    <string name="future_transactions_title">Upcoming</string>
+
+    <!-- Addtransaction -->
+    <string name="add_transaction_title">Add Transaction</string>
+    <string name="update_transaction_title">Update Transaction</string>
+    <string name="title">Title</string>
+
+    <!-- List -->
+    <string name="list_title">List</string>
+    <string name="list_balance_graph_title">Balance</string>
+    <string name="list_category_graph_title">Category</string>
+    <string name="list_statictics_graph_title">Statistics</string>
+    <string name="list_statictics_total_record">Total Records:</string>
+    <string name="list_statictics_total_outgoings_count">Total Expense Records:</string>
+    <string name="list_statictics_total_income_count">Total Income Records:</string>
+    <string name="list_statictics_highest_income">Highest Income:</string>
+    <string name="list_statictics_highest_outgoings">Highest Expense:</string>
+    <string name="record_added">Record Added.</string>
+
+    <!-- Filter -->
+    <string name="filter_title">Filter</string>
+    <string name="filter_button">Apply Filter</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_pay_type">Payment Type</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="premium_tab">Premium</string>
+    <string name="excel_tab">Excel</string>
+    <string name="password_tab">Encryption</string>
+    <string name="backup_tab">Backup</string>
+    <string name="aboutUs_tab">About Us</string>
+    <string name="comingSoon_title">Information</string>
+    <string name="comingSoon_desc">This feature is coming soon.</string>
+    <string name="dialog_confirm_text">OK</string>
+    <string name="dialog_confirm_send_text">Send</string>
+    <string name="dialog_evaluation_text">Rate the App</string>
+    <string name="dialog_contact_us_text">Contact Us</string>
+    <string name="dialog_contact_us_desc">For suggestions, issues, or questions, contact us below;</string>
+    <string name="delete_contents">Delete Data</string>
+    <string name="delete_contents_desc">If you confirm this action, all data will be deleted. Do you want to proceed?</string>
+    <string name="processing_started">Processing started. Please wait…</string>
+    <string name="excel_file_created">Excel file created successfully:</string>
+    <string name="excel_file_not_support">Android 13+ is not supported currently.</string>
+    <string name="category">Category</string>
+    <string name="category_name">Category Name</string>
+
+    <string-array name="settings_list">
+        <item>Preferences</item>
+        <item>Notifications</item>
+        <item>Contact Us</item>
+        <item>Categories</item>
+        <item>Excel</item>
+        <item>Rate the App</item>
+        <item>Encryption</item>
+        <item>Backup</item>
+        <item>About Us</item>
+    </string-array>
+
+    <string-array name="init_category_list">
+        <item>Salary</item>
+        <item>Rent</item>
+        <item>Education</item>
+        <item>Food</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- ContactUs -->
+    <string name="contactUs">Contact Us</string>
+
+    <!-- Evaluation -->
+    <string name="evaluation">Rate the App</string>
+
+    <!-- Preferences -->
+    <string name="preferences_title">Preferences</string>
+    <string name="preference_language">Language Selection</string>
+    <string name="preference_mode">Theme</string>
+    <string name="preference_currency">Currency</string>
+    <string name="preference_deleteALL">Delete All Data</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_desc">"*Set reminder notifications.\n"
+                                        "*You can set recurring notifications.\n"
+                                        "*We will send a notification on the selected date.\n"</string>
+    <string name="notifications_top_title">About Notifications</string>
+    <string name="no_data_notifications">No upcoming notifications found.</string>
+    <string name="notification_name">"Notification Name"</string>
+    <string name="notification_name_hint">"E.g.: Birthday Reminder"</string>
+    <string name="notification_name_error">"Notification name cannot be empty."</string>
+    <string name="notification_date">"Date (DD/MM/YYYY)"</string>
+    <string name="notification_date_hint">"E.g.: 05/11/2024"</string>
+    <string name="notification_date_error">"Invalid date format. Enter in DD/MM/YYYY format."</string>
+    <string name="notification_time">"Time (HH:MM)"</string>
+    <string name="notification_time_hint">"E.g.: 14:30"</string>
+    <string name="notification_time_error">"Invalid time format. Enter in HH:MM format."</string>
+    <string name="notification_count">"Repeat Count"</string>
+    <string name="notification_count_hint">"E.g.: 3"</string>
+    <string name="notification_count_error">"Repeat count must be a positive integer."</string>
+    <string name="notification_confirm">"OK"</string>
+    <string name="notification_cancel">"Cancel"</string>
+    <string name="preferences_data_delete">Data has been cleared.</string>
+
+    <!-- Categories -->
+    <string name="category_title">Categories</string>
+    <string name="no_data_categories">No categories found</string>
+    <string name="category_other">Other</string>
+    <string name="category_select">Select Category</string>
+    <string name="delete_data">Delete Data</string>
+    <string name="delete_confirmation">The data will be deleted, are you sure?</string>
+    <string name="record_delete">Record deleted</string>
+    <string name="record_update">Record updated</string>
+    <string name="add_new_category">Add New Category</string>
+    <string name="add_new_category_warning">"You must enter the amount."</string>
+
+</resources>

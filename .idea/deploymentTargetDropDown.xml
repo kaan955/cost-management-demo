@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="BarChartPreview">
+        <State />
+      </entry>
+      <entry key="CategoryPreview">
+        <State />
+      </entry>
+      <entry key="HorizontalGraphPreview">
+        <State />
+      </entry>
+      <entry key="TopBalanceInfoPreview">
+        <State />
+      </entry>
+      <entry key="TransactionItemPreview">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\kaanb\.android\avd\Pixel_3_API_29.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-11-25T22:42:13.123627400Z" />
+        </State>
+      </entry>
+    </value>
+  </component>
+</project>

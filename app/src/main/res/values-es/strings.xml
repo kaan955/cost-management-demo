@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestión de Gastos</string>
+
+    <!-- PayTypes -->
+    <string name="income_type">Ingresos</string>
+    <string name="outgoings_type">Gastos</string>
+    <string name="all_type">Todos</string>
+
+    <!-- TableStr -->
+    <string name="table_date">Fecha</string>
+    <string name="table_title">Título</string>
+    <string name="table_remainingDay">Días Restantes</string>
+    <string name="table_category">Categoría</string>
+    <string name="table_amount">Cantidad</string>
+
+    <!-- homepagefilterDesc -->
+    <string name="homepage_filter_0">HOY</string>
+    <string name="homepage_filter_1">ÚLTIMOS 3 DÍAS</string>
+    <string name="homepage_filter_2">ÚLTIMOS 7 DÍAS</string>
+    <string name="homepage_filter_3">ÚLTIMO MES</string>
+    <string name="homepage_filter_4">ÚLTIMOS 3 MESES</string>
+    <string name="homepage_filter_5">ÚLTIMO AÑO</string>
+    <string name="income">Ingresos</string>
+    <string name="outgoings">Gastos</string>
+
+    <!-- bottomNavigation -->
+    <string name="homepage_bottom">Inicio</string>
+    <string name="list_bottom">Lista</string>
+    <string name="settings_bottom">Configuración</string>
+
+    <!-- homepage -->
+    <string name="no_data_transactions">No se encontraron transacciones en el intervalo de tiempo seleccionado.</string>
+    <string name="no_data_up_coming_transactions">No se encontraron transacciones futuras.</string>
+    <string name="transactions_title">Transacciones</string>
+    <string name="future_transactions_title">Próximo</string>
+
+    <!-- Addtransaction -->
+    <string name="add_transaction_title">Agregar Transacción</string>
+    <string name="update_transaction_title">Actualizar Transacción</string>
+    <string name="title">Título</string>
+
+    <!-- List -->
+    <string name="list_title">Lista</string>
+    <string name="list_balance_graph_title">Balance</string>
+    <string name="list_category_graph_title">Categoría</string>
+    <string name="list_statictics_graph_title">Estadísticas</string>
+    <string name="list_statictics_total_record">Total de Registros:</string>
+    <string name="list_statictics_total_outgoings_count">Total de Registros de Gastos:</string>
+    <string name="list_statictics_total_income_count">Total de Registros de Ingresos:</string>
+    <string name="list_statictics_highest_income">Ingreso Más Alto:</string>
+    <string name="list_statictics_highest_outgoings">Gasto Más Alto:</string>
+    <string name="record_added">Registro agregado.</string>
+
+    <!-- Filter -->
+    <string name="filter_title">Filtro</string>
+    <string name="filter_button">Aplicar Filtro</string>
+    <string name="filter_category">Categoría</string>
+    <string name="filter_pay_type">Tipo de Pago</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="premium_tab">Premium</string>
+    <string name="excel_tab">Excel</string>
+    <string name="password_tab">Encriptar</string>
+    <string name="backup_tab">Respaldo</string>
+    <string name="aboutUs_tab">Acerca de</string>
+    <string name="comingSoon_title">Información</string>
+    <string name="comingSoon_desc">Esta función estará disponible pronto.</string>
+    <string name="dialog_confirm_text">Aceptar</string>
+    <string name="dialog_confirm_send_text">Enviar</string>
+    <string name="dialog_evaluation_text">Calificar la App</string>
+    <string name="dialog_contact_us_text">Contáctenos</string>
+    <string name="dialog_contact_us_desc">Para sugerencias, problemas o preguntas, contáctenos a continuación;</string>
+    <string name="delete_contents">Eliminar datos</string>
+    <string name="delete_contents_desc">Si confirma esta acción, se eliminarán todos los datos. ¿Desea continuar?</string>
+    <string name="processing_started">Proceso iniciado. Por favor, espere…</string>
+    <string name="excel_file_created">Archivo de Excel creado con éxito:</string>
+    <string name="excel_file_not_support">Android 13+ no es compatible actualmente.</string>
+    <string name="category">Categoría</string>
+    <string name="category_name">Nombre de la categoría</string>
+
+    <string-array name="settings_list">
+        <item>Preferencias</item>
+        <item>Notificaciones</item>
+        <item>Contáctenos</item>
+        <item>Categorías</item>
+        <item>Excel</item>
+        <item>Calificar</item>
+        <item>Encriptar</item>
+        <item>Respaldo</item>
+        <item>Acerca de</item>
+    </string-array>
+
+    <string-array name="init_category_list">
+        <item>Sueldo</item>
+        <item>Renta</item>
+        <item>Educación</item>
+        <item>Comida</item>
+        <item>Otros</item>
+    </string-array>
+
+    <!-- ContactUs -->
+    <string name="contactUs">Contáctenos</string>
+
+    <!-- Evaluation -->
+    <string name="evaluation">Calificar</string>
+
+    <!-- Preferences -->
+    <string name="preferences_title">Preferencias</string>
+    <string name="preference_language">Seleccionar Idioma</string>
+    <string name="preference_mode">Tema</string>
+    <string name="preference_currency">Moneda</string>
+    <string name="preference_deleteALL">Eliminar Todos los Datos</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notificaciones</string>
+    <string name="notifications_desc">"*Establecer recordatorios de notificaciones. \n"
+                                        "*Puedes configurar notificaciones recurrentes. \n"
+                                        "*Enviaremos una notificación en la fecha seleccionada. \n"</string>
+    <string name="notifications_top_title">Acerca de las Notificaciones</string>
+    <string name="no_data_notifications">No se encontraron notificaciones futuras.</string>
+    <string name="notification_name">"Nombre de la Notificación"</string>
+    <string name="notification_name_hint">"Ej: Recordatorio de Cumpleaños"</string>
+    <string name="notification_name_error">"El nombre de la notificación no puede estar vacío."</string>
+    <string name="notification_date">"Fecha (DD/MM/AAAA)"</string>
+    <string name="notification_date_hint">"Ej: 05/11/2024"</string>
+    <string name="notification_date_error">"Formato de fecha inválido. Ingréselo como DD/MM/AAAA."</string>
+    <string name="notification_time">"Hora (HH:MM)"</string>
+    <string name="notification_time_hint">"Ej: 14:30"</string>
+    <string name="notification_time_error">"Formato de hora inválido. Ingréselo como HH:MM."</string>
+    <string name="notification_count">"Número de Repeticiones"</string>
+    <string name="notification_count_hint">"Ej: 3"</string>
+    <string name="notification_count_error">"El número de repeticiones debe ser un número entero positivo."</string>
+    <string name="notification_confirm">"Aceptar"</string>
+    <string name="notification_cancel">"Cancelar"</string>
+    <string name="preferences_data_delete">Los datos han sido eliminados.</string>
+
+    <!-- Categories -->
+    <string name="category_title">Categorías</string>
+    <string name="no_data_categories">No se encontraron categorías</string>
+    <string name="category_other">Otros</string>
+    <string name="category_select">Seleccionar categoría</string>
+    <string name="delete_data">Eliminar Datos</string>
+    <string name="delete_confirmation">Los datos se eliminarán, ¿está seguro?</string>
+    <string name="record_delete">Registro eliminado</string>
+    <string name="record_update">Registro actualizado</string>
+    <string name="add_new_category">Agregar nueva categoría</string>
+    <string name="add_new_category_warning">"Debe ingresar la cantidad."</string>
+
+</resources>

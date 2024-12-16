@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ausgabenverwaltung</string>
+
+    <!-- PayTypes -->
+    <string name="income_type">Einnahmen</string>
+    <string name="outgoings_type">Ausgaben</string>
+    <string name="all_type">Alle</string>
+
+    <!-- TableStr -->
+    <string name="table_date">Datum</string>
+    <string name="table_title">Titel</string>
+    <string name="table_remainingDay">Verbleibende Tage</string>
+    <string name="table_category">Kategorie</string>
+    <string name="table_amount">Betrag</string>
+
+    <!-- homepagefilterDesc -->
+    <string name="homepage_filter_0">HEUTE</string>
+    <string name="homepage_filter_1">LETZTE 3 TAGE</string>
+    <string name="homepage_filter_2">LETZTE 7 TAGE</string>
+    <string name="homepage_filter_3">LETZTER MONAT</string>
+    <string name="homepage_filter_4">LETZTE 3 MONATE</string>
+    <string name="homepage_filter_5">LETZTES JAHR</string>
+    <string name="income">Einnahmen</string>
+    <string name="outgoings">Ausgaben</string>
+
+    <!-- bottomNavigation -->
+    <string name="homepage_bottom">Startseite</string>
+    <string name="list_bottom">Liste</string>
+    <string name="settings_bottom">Einstellungen</string>
+
+    <!-- homepage -->
+    <string name="no_data_transactions">Keine Transaktionen im ausgewählten Zeitraum gefunden.</string>
+    <string name="no_data_up_coming_transactions">Keine bevorstehenden Transaktionen gefunden.</string>
+    <string name="transactions_title">Transaktionen</string>
+    <string name="future_transactions_title">Kommende</string>
+
+    <!-- Addtransaction -->
+    <string name="add_transaction_title">Transaktion hinzufügen</string>
+    <string name="update_transaction_title">Transaktion aktualisieren</string>
+    <string name="title">Titel</string>
+
+    <!-- List -->
+    <string name="list_title">Liste</string>
+    <string name="list_balance_graph_title">Balance</string>
+    <string name="list_category_graph_title">Kategorie</string>
+    <string name="list_statictics_graph_title">Statistiken</string>
+    <string name="list_statictics_total_record">Gesamtanzahl der Einträge:</string>
+    <string name="list_statictics_total_outgoings_count">Gesamte Ausgabeneinträge:</string>
+    <string name="list_statictics_total_income_count">Gesamte Einnahmeeinträge:</string>
+    <string name="list_statictics_highest_income">Höchste Einnahme:</string>
+    <string name="list_statictics_highest_outgoings">Höchste Ausgabe:</string>
+    <string name="record_added">Datensatz hinzugefügt.</string>
+
+    <!-- Filter -->
+    <string name="filter_title">Filter</string>
+    <string name="filter_button">Filter anwenden</string>
+    <string name="filter_category">Kategorie</string>
+    <string name="filter_pay_type">Zahlungstyp</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="premium_tab">Premium</string>
+    <string name="excel_tab">Excel</string>
+    <string name="password_tab">Verschlüsselung</string>
+    <string name="backup_tab">Backup</string>
+    <string name="aboutUs_tab">Über uns</string>
+    <string name="comingSoon_title">Information</string>
+    <string name="comingSoon_desc">Diese Funktion ist bald verfügbar.</string>
+    <string name="dialog_confirm_text">OK</string>
+    <string name="dialog_confirm_send_text">Senden</string>
+    <string name="dialog_evaluation_text">App bewerten</string>
+    <string name="dialog_contact_us_text">Kontaktieren Sie uns</string>
+    <string name="dialog_contact_us_desc">Für Vorschläge, Probleme oder Fragen kontaktieren Sie uns unten;</string>
+    <string name="delete_contents">Daten löschen</string>
+    <string name="delete_contents_desc">Wenn Sie diese Aktion bestätigen, werden alle Daten gelöscht. Möchten Sie fortfahren?</string>
+    <string name="processing_started">Vorgang gestartet. Bitte warten..</string>
+    <string name="excel_file_created">Excel-Datei erfolgreich erstellt:</string>
+    <string name="excel_file_not_support">Android 13+ wird derzeit nicht unterstützt.</string>
+    <string name="category">Kategorie</string>
+    <string name="category_name">Kategoriename</string>
+
+    <string-array name="settings_list">
+        <item>Präferenzen</item>
+        <item>Benachrichtigungen</item>
+        <item>Kontakt</item>
+        <item>Kategorien</item>
+        <item>Excel</item>
+        <item>Bewertung</item>
+        <item>Verschlüsselung</item>
+        <item>Backup</item>
+        <item>Über uns</item>
+    </string-array>
+
+    <string-array name="init_category_list">
+        <item>Gehalt</item>
+        <item>Miete</item>
+        <item>Bildung</item>
+        <item>Essen</item>
+        <item>Andere</item>
+    </string-array>
+
+    <!-- ContactUs -->
+    <string name="contactUs">Kontakt</string>
+
+    <!-- Evaluation -->
+    <string name="evaluation">Bewertung</string>
+
+    <!-- Preferences -->
+    <string name="preferences_title">Präferenzen</string>
+    <string name="preference_language">Sprache auswählen</string>
+    <string name="preference_mode">Design</string>
+    <string name="preference_currency">Währung</string>
+    <string name="preference_deleteALL">Alle Daten löschen</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Benachrichtigungen</string>
+    <string name="notifications_desc">"*Erinnerungsbenachrichtigungen einrichten.\n"
+                                        "*Wiederkehrende Benachrichtigungen einrichten.\n"
+                                        "*Wir senden eine Benachrichtigung am ausgewählten Datum.\n"</string>
+    <string name="notifications_top_title">Über Benachrichtigungen</string>
+    <string name="no_data_notifications">Keine bevorstehenden Benachrichtigungen gefunden.</string>
+    <string name="notification_name">"Benachrichtigungsname"</string>
+    <string name="notification_name_hint">"z. B.: Geburtstags-Erinnerung"</string>
+    <string name="notification_name_error">"Benachrichtigungsname darf nicht leer sein."</string>
+    <string name="notification_date">"Datum (TT/MM/JJJJ)"</string>
+    <string name="notification_date_hint">"z. B.: 05/11/2024"</string>
+    <string name="notification_date_error">"Ungültiges Datumsformat. Geben Sie es im Format TT/MM/JJJJ ein."</string>
+    <string name="notification_time">"Uhrzeit (SS:MM)"</string>
+    <string name="notification_time_hint">"z. B.: 14:30"</string>
+    <string name="notification_time_error">"Ungültiges Zeitformat. Geben Sie es im Format SS:MM ein."</string>
+    <string name="notification_count">"Wiederholungsanzahl"</string>
+    <string name="notification_count_hint">"z. B.: 3"</string>
+    <string name="notification_count_error">"Die Wiederholungsanzahl muss eine positive Ganzzahl sein."</string>
+    <string name="notification_confirm">"OK"</string>
+    <string name="notification_cancel">"Abbrechen"</string>
+    <string name="preferences_data_delete">Daten wurden gelöscht.</string>
+
+    <!-- Categories -->
+    <string name="category_title">Kategorien</string>
+    <string name="no_data_categories">Keine Kategorien gefunden</string>
+    <string name="category_other">Andere</string>
+    <string name="category_select">Kategorie auswählen</string>
+    <string name="delete_data">Daten Löschen</string>
+    <string name="delete_confirmation">Die Daten werden gelöscht, sind Sie sicher?</string>
+    <string name="record_delete">Eintrag gelöscht</string>
+    <string name="record_update">Eintrag aktualisiert</string>
+    <string name="add_new_category">Neue Kategorie hinzufügen</string>
+    <string name="add_new_category_warning">"Sie müssen den Betrag eingeben."</string>
+
+</resources>
