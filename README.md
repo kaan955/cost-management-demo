@@ -41,15 +41,15 @@ To run the project locally, follow these steps:
 **Access to some features is limited due to the demo version.
 
 ## Technologies Used
-Architecture: MVVM,Compose, Room, Navigation,
-Dependency Injection: Hilt
-Kotlin Coroutines
-Jetpack Compose
-Clean Code*
-SQLite / Room Database
-MPAndroidChart *adapted to compose
-Detekt *Static code analysis for Kotlin
-Firebase Analytics *used for events
+- Architecture: MVVM,Compose, Room, Navigation
+- Dependency Injection: Hilt
+- Kotlin Coroutines
+- Jetpack Compose
+- Clean Code*
+- SQLite / Room Database
+- MPAndroidChart *adapted to compose
+- Detekt *Static code analysis for Kotlin
+- Firebase Analytics *used for events
 
 ---
 
